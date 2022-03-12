@@ -22,7 +22,7 @@ title: Guides
 email: bbhsrobotics4654@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Programming-related guides
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/guides" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ftcjellyfish
 github_username:  jellyfish4654
