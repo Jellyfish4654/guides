@@ -71,5 +71,5 @@ a:active {
     color: #a3be8c; }
 .highlight .mf, .highlight .mi {
     color: #ebcb8b; }
-.highlight .c {
+.highlight .c, .highlight .c1, .highlight .c2 {
     color: #6e7c99; }

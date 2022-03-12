@@ -46,6 +46,7 @@ age = (5 + 3 + 2) / 7;
 
 You can declare and assign a variable in the same statement, like the following:
 ```java
+// if you disagree you're wrong
 String favouriteBook = "Aristotle and Dante Discover the Secrets of the Universe";
 ```
 
