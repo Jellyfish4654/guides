@@ -1,4 +1,11 @@
-# Day 1: Basic Concepts
+---
+title: "Day 1: Basic Concepts"
+layout: default
+up: /java
+left: /java
+right: day2.html
+---
+
 ## Installation
 I'm assuming you already have Java installed. If not you should install that (ask me for help!).
 
@@ -156,7 +163,7 @@ There are a couple of boolean operators:
 
 | Operator | What it does |
 |---|---|
-| `a \|\| b` | OR: Evaluates to true if a or b is true. |
+| `a || b` | OR: Evaluates to true if a or b is true. |
 | `a && b` | AND: Evaluates to true if a and b are both true. |
 | `!a` | NOT: Evaluates to true if a is false and false if a is true. |
 
