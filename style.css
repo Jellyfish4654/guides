@@ -21,7 +21,13 @@ header, h1, h2, h3, h4, h5,h6 {
     font-family: 'Fredoka';
 }
 
-.q {
+h2 {
+    border-bottom: 2px solid #88c0d0;
+    width: 512px;
+    font-size: 28px;
+}
+
+.q, blockquote {
     background: #5e81ac;
     padding: 8px 16px;
     margin-left: 32px;
@@ -59,7 +65,7 @@ a:active {
 
 .highlight .kt, .highlight .nc { /* types*/
     color: #88c0d0; }
-.highlight .kd, .highlight .nt {/*keywords*/
+.highlight .kd, .highlight .nt, .highlight .k, .highlight .kn {/*keywords*/
     color: #d08770; }
 .highlight .s, .highlight .s2 { /*strings*/
     color: #a3be8c; }
