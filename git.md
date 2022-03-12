@@ -3,8 +3,11 @@ layout: default
 title: Command Line & Git Quickstart
 up: /
 ---
+
 ## Command Line
-These should work in `bash` (and most shells) on Linux and Mac and in PowerShell in Windows.
+A quick overview of common commands. These should work in `bash` (and most shells) on Linux and Mac and in PowerShell in Windows.
+Obviously these are not *all* commands; if you want a list of them, type `help`.
+If you want more information about how a command works, type `COMMAND --help` or `man COMMAND` (on Linux and Mac).
 
 Print current folder:
 ```
@@ -23,11 +26,18 @@ cd NEW-FOLDER
 ```
 
 ## Git
+This is inteded to be a quick reference for commmonly used commands in `git`,
+not a replacement for learning how it works. This does not cover a lot of important
+features of git, notably branching and merge conflict resolution. If you want a more detailed
+reference of commands, type `git --help` or `git SUBCOMMAND --help`.
+
+### Terminology
 *Repository* - project  
 *Commit* - a change to the code recorded in git  
 *Local Repository* - the version of a repository on your computer  
 *Remote* - the version of a repository in the cloud
 
+### Commands
 Create an empty git repository in current folder:
 ```bash
 git init
