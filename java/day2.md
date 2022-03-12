@@ -1,3 +1,10 @@
+---
+title: "Day 2: Variables and Input"
+layout: default 
+---
+
+Crickets.
+<!--
 variables & scanner
 
 notes:
@@ -6,3 +13,4 @@ notes:
 oh and missing information
  - type coercion limits!!
  - bitwise operators (separate day)
+-->
