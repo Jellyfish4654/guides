@@ -41,8 +41,8 @@ If we change the content inside of the inner braces to:
 public class A {
 	public static void main(String[] args) {
 		System.out.println("Hello world!");
-        System.out.println("I exist now.");
-        System.out.println("Cool right?");
+		System.out.println("I exist now.");
+		System.out.println("Cool right?");
 	}
 }
 ```
@@ -64,11 +64,11 @@ Java can do math:
 ```java
 public class A {
 	public static void main(String[] args) {
-        System.out.println(1 + 2 - 5);
-        System.out.println(3 * 4);
-        System.out.println((4 + 7) / 5);
-        System.out.println("Hello" + "world");
-    }
+		System.out.println(1 + 2 - 5);
+		System.out.println(3 * 4);
+		System.out.println((4 + 7) / 5);
+		System.out.println("Hello" + "world");
+	}
 }
 ```
 

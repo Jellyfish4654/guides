@@ -53,6 +53,17 @@ header a, header a:visited, header a:active {
 a {
     color: #88c0d0; }
 a:visited {
-    color: #b48ead; }
+    color: #88c0d0; }
 a:active {
+    color: #bf616a; }
+
+.highlight .kt, .highlight .nc { /* types*/
+    color: #88c0d0; }
+.highlight .kd, .highlight .nt {/*keywords*/
     color: #d08770; }
+.highlight .s, .highlight .s2 { /*strings*/
+    color: #a3be8c; }
+.highlight .mf, .highlight .mi {
+    color: #ebcb8b; }
+.highlight .c {
+    color: #6e7c99; }

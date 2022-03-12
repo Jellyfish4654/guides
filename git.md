@@ -10,18 +10,18 @@ Obviously these are not *all* commands; if you want a list of them, type `help`.
 If you want more information about how a command works, type `COMMAND --help` or `man COMMAND` (on Linux and Mac).
 
 Print current folder:
-```
+```bash
 pwd
 ```
 
 List files in folder:
-```
+```bash
 ls          # list files in current folder
 ls FOLDER   # list files in given folder
 ```
 
 Change current folder:
-```
+```bash
 cd NEW-FOLDER
 ```
 
@@ -44,7 +44,7 @@ git init
 ```
 
 Create a local git repository from one in the cloud:
-```
+```bash
 git clone "URL-OF-REPO"
 ```
 
@@ -55,7 +55,7 @@ git commit -am "jeffrey was here"
 ```
 
 Associate local git repository with a remote:
-```
+```bash
 git remote add origin "URL-OF-REPO"
 ```
 
