@@ -32,7 +32,10 @@ theme: minima
 plugins:
   - jekyll-feed
 
-source              : .
+include:
+ - java
+ - style.css
+ - 404.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.
