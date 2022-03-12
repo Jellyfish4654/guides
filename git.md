@@ -40,6 +40,7 @@ git clone "URL-OF-REPO"
 
 Make a commit:
 ```bash
+git add .
 git commit -am "jeffrey was here"
 ```
 
@@ -58,3 +59,7 @@ Pull updates from remote:
 ```bash
 git pull
 ``` 
+
+## .gitignore
+If you want to exclude files from the repository, place them in a `.gitignore` file,
+which should be at the root (outermost folder) of your repository.
