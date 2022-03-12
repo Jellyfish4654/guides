@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Command Line & Git Quickstart
-up: /
+up: .
 ---
 
 ## Command Line

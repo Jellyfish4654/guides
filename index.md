@@ -6,5 +6,5 @@ layout: default
 title: Reference
 ---
 
- - [Java](/java)
- - [Git](/git.html)
+ - [Java](java)
+ - [Git](git.html)

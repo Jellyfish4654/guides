@@ -1,8 +1,7 @@
 ---
 title: "Day 1: Basic Concepts"
 layout: default
-up: /java
-left: /java
+up: .
 right: day2.html
 ---
 

@@ -1,6 +1,9 @@
 ---
 title: "Day 2: Variables and Input"
 layout: default 
+up: .
+left: day1.html
+right: day3.html
 ---
 
 Crickets.
