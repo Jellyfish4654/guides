@@ -83,10 +83,17 @@ git branch BRANCHNAME
 
 Switch to a branch
 ```bash
+# sets the current branch to BRANCHNAME
 git checkout BRANCHNAME
 ```
 
 Check the status of the branch
 ```bash
 git status
+```
+
+Merge branch
+```bash
+# merges commits from FROMBRANCH to the current branch
+git merge FROMBRANCH
 ```
