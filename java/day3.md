@@ -2,7 +2,7 @@
 title: "Day 3: Basic Concepts"
 layout: default
 up: .
-right: day2.html
+left: day2.html
 right: day4.html
 ---
 
