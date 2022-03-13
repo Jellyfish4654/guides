@@ -4,3 +4,7 @@
  - num: 2
    title: "Variables & Input"
    addendums: [1]
+
+   
+ - num: 3
+   title: "If & Switch Statements"
