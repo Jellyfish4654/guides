@@ -73,3 +73,20 @@ git pull
 ## .gitignore
 If you want to exclude files from the repository, place them in a `.gitignore` file,
 which should be at the root (outermost folder) of your repository.
+
+
+## Branching
+Create a branch
+```bash
+git branch BRANCHNAME
+```
+
+Switch to a branch
+```bash
+git checkout BRANCHNAME
+```
+
+Check the status of the branch
+```bash
+git status
+```
