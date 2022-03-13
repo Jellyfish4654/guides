@@ -74,3 +74,56 @@ if (condition1) {
 }
 ```
 ![If Statement](/images/chonkIfStatement.png "Else If If Statement")
+
+---
+## While loops
+
+Executes a set of statements until a given condition becomes false.
+
+```java
+while (condition) {
+// body
+
+}
+```
+A break statement causes the program to exit the while loop early.
+```java
+break;
+```
+A continue statement causes the computer to jump to the beginning of the while loop.
+```java
+continue;
+```
+The do...while loop is like a while loop except it executes the body before checking for
+the condition.
+
+```java
+do {
+
+// body
+} while (condition);
+```
+![If Statement](/images/doWhile.png "Do while outline")
+
+---
+
+## Switch Statements
+A switch statement lets you execute a piece of code depending on what value a specific
+expression is.
+```java
+switch (value) {
+case 1:
+
+// executed if value is 1
+break;
+
+case 2:
+case 3:
+
+// executed if value is 2 or 3
+break;
+default:
+
+// executed otherwise
+
+}```
