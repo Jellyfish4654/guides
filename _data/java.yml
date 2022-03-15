@@ -5,6 +5,8 @@
    title: "Variables & Input"
    addendums: [1]
 
-   
  - num: 3
    title: "If & Switch Statements"
+   
+ - num: 4
+   title: "Arrays"
