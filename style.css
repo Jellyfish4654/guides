@@ -73,3 +73,11 @@ a:active {
     color: #ebcb8b; }
 .highlight .c, .highlight .c1, .highlight .c2 {
     color: #6e7c99; }
+
+.mermaid {
+    text-align: center; }
+.mermaid:not([data-processed]) {
+    display: none; }
+.mermaid svg {
+    background: #e5e9f0;
+}

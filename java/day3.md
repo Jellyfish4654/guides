@@ -6,124 +6,157 @@ left: day2.html
 right: day4.html
 ---
 
-## If statements
-If statements executes a set of statements if a condition is true
+## `if` statements
+An `if` statement executes its *body*, if a given `boolean` expression, called the *condition*, is `true`.
+(Look at Day 1 for a list of operators that can be used to construct `boolean` expressions).
 
 ```java
 if (condition) {
-// body
-
+    // body
 }
 // next statement
 ```
-![If Statement](/images/basicIfStatement.png "Basic If Statement")
----
-Here are a whole bunch of operators you can use as a condition.
 
-|Boolean Operators | What it does |
-|---|---|
-| `a || b` | OR: Evaluates to true if a or b is true. |
-| `a && b` | AND: Evaluates to true if a and b are both true. |
-| `!a` | NOT: Evaluates to true if a is false and false if a is true. |
+<div class="mermaid">
+graph TD
+condition{"condition"} --> |true| body["body"]
+condition --> |false| next("next statement")
+body --> next
+</div>
 
-Here are a bunch of other operators:
+### `else` clauses
+An `else` clause is executed if the condition of the associated `if` statement is false.
 
-| Operator | What it does |
-|---|---|
-| `a == b` | Equal: Evaluates to true if a = b. |
-| `a != b` | Not Equal: Evaluates to true if a does not equal b. |
-| `a > c` | Greater Than: Evaluates to true if a > c |
-| `a < c` | Less Than: Evaluates to true if a < c |
-| `a >= c` | Greater Than or Equal To: Evaluates to true if a > c or a = c |
-| `a <= c` | Less Than or Equal To: Evaluates to true if a <> c or a = c |
-
-___
-
-You can also add an else if which will run if the preceding if statement is false. However, if the first if statement if true, any succeding else ifs will not run.
 ```java
-if (condition1) {
-// if body
-} else if (condition2) {
-// else if body
-
-}
-```
-
-![If Statement](/images/elseIfIfStatement.png "Else If If Statement")
-
-___
-
-You can also add an else to the end, to run if none of the earlier statements are true
-```java
-if (condition1) {
-
-// executed if condition1 is true
-
-} else if (condition2) {
-
-// executed if condition1 is false and condition2 is true
-
-} else if (condition3) {
-
-// executed if condition1 and condition2 are false and condition3 is true
-
+if (condition) {
+	// if body
 } else {
+	// else body
+}
+// next statement
+```
 
-// executed if condition1, condition2, and condition3 are false
+<div class="mermaid">
+graph TD
+condition{"condition"} --> |true| body["if body"]
+condition --> |false| else["else body"]
+else --> next("next statement")
+body --> next
+</div>
 
+### `else if` clauses
+The body of an `else if` clause is executed if the condition of the associated `if`
+statement is false and the condition of the `else if` clause is true.
+
+```java
+if (condition1) {
+	// if body, executed if condition1 false
+} else if (condition2) {
+	// else if body, executed if condition1 false and condition2 true
 }
 ```
-![If Statement](/images/chonkIfStatement.png "Else If If Statement")
 
----
-## While loops
+<div class="mermaid">
+graph TD
+cond1{"condition1"} --> |true| if["if body"]
+cond1 --> |false| cond2
+cond2{"condition2"} --> |true| elif["else if body"]
+cond2 --> |false| next("next statement")
+if --> next
+elif --> next
+</div>
 
-Executes a set of statements until a given condition becomes false.
+`else if` clauses can be chained. At the end of the chain, an optional `else` clause
+can be present.
+
+```java
+if (condition1) {
+	// executed if condition1 is true
+} else if (condition2) {
+	// executed if condition1 is false and condition2 is true
+} else if (condition3) {
+	// executed if condition1 and condition2 are false and condition3 is true
+} else {
+	// executed if condition1, condition2, and condition3 are false
+}
+```
+
+## `while` loops
+A `while` loop repeatedly executes a set of statements until a given condition becomes false.
 
 ```java
 while (condition) {
-// body
-
+    // body, continues to be executed until condition false
 }
 ```
-A break statement causes the program to exit the while loop early.
+
+<div class="mermaid">
+graph TD
+condition{condition} --> |true| body
+condition --> |false| next("next statement")
+body --> condition
+</div>
+
+### `break`
+A `break` statement causes the program to exit the while loop early.
 ```java
 break;
 ```
-A continue statement causes the computer to jump to the beginning of the while loop.
+
+<div class="mermaid">
+graph TD
+condition{condition} --> |true| body
+condition --> |false| next
+body --> condition
+body --> |break| next("next statement")
+</div>
+
+### `continue`
+A `continue` statement causes the computer to jump to the beginning of the while loop.
 ```java
 continue;
 ```
-The do...while loop is like a while loop except it executes the body before checking for
-the condition.
+
+<div class="mermaid">
+graph TD
+condition{condition} --> |true| body
+condition --> |false| next
+body --> condition
+body --> |break| next("next statement")
+body --> |continue| condition
+</div>
+
+## `do`...`while` loops
+The `do`...`while` loop is like a while loop except it executes the body *before* checking the condition.
 
 ```java
 do {
-
-// body
+    // body, execeuted until condition is false
 } while (condition);
 ```
-![If Statement](/images/doWhile.png "Do while outline")
 
----
+<div class="mermaid">
+graph TD
+body --> condition
+condition{condition} --> |true| body
+condition --> |false| next("next statement")
+body --> |break| next
+body --> |continue| condition
+</div>
 
-## Switch Statements
+## `switch` statements
 A switch statement lets you execute a piece of code depending on what value a specific
 expression is.
 ```java
 switch (value) {
 case 1:
-
-// executed if value is 1
-break;
-
+    // executed if value is 1
+    break;
 case 2:
 case 3:
-
-// executed if value is 2 or 3
-break;
+    // executed if value is 2 or 3
+    break;
 default:
-
-// executed otherwise
-
-}```
+    // executed otherwise
+}
+```
