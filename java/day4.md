@@ -44,3 +44,4 @@ for (int prime : primes) {
 }
 ```
 
+For-each loops support `break` and `continue`, just like the other kinds of loops.
