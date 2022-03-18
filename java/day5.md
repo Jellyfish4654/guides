@@ -1,9 +1,9 @@
 ---
 layout: default
-left: day3.html
-right: day5.html
+left: day4.html
+right: day6.html
 up: .
-title: "Day 4: Arrays"
+title: "Day 5: Arrays"
 ---
 
 An *array* is a list of a fixed number of values.
