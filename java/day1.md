@@ -1,8 +1,7 @@
 ---
 title: "Day 1: Basic Concepts"
 layout: default
-up: .
-right: day2.html
+day: 1
 ---
 
 ## Installation
