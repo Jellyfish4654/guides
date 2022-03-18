@@ -21,7 +21,7 @@
       {%if page.left %}
             <a href={{page.left}}>&lt;</a>
       {%elsif page.day and page.day > 1 %}
-            <a href="day{{page.day | add: 1}}.html">&lt;</a>      
+            <a href="day{{page.day | minus: 1}}.html">&lt;</a>      
       {%endif%}
 
       <h1>{%if page.day%}Day {{page.day}}: {%endif%}{{ page.title }}</h1>
@@ -29,7 +29,7 @@
       {%if page.right %}
            <a href={{page.right}}>&gt;</a>
       {%elsif page.day %}
-           <a href="day{{page.day | minus: 1}}.html">&gt;</a> 
+           <a href="day{{page.day | plus: 1}}.html">&gt;</a> 
       {%endif%}
     </header>
     {%endif%}
