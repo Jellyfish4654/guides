@@ -1,8 +1,8 @@
 ---
 title: "Day 4: Loops"
 layout: default
-left: if.html
-right: arrays.html
+left: day3.html
+right: day5.html
 up: .
 ---
 
