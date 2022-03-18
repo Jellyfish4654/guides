@@ -1,9 +1,7 @@
 ---
-title: "Day 3: Branching"
+title: "Branching"
 layout: default
-up: .
-left: day2.html
-right: day4.html
+day: 3
 ---
 
 ## `if` statements
