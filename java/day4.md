@@ -1,9 +1,7 @@
 ---
-title: "Day 4: Loops"
+title: "Loops"
 layout: default
-left: day3.html
-right: day5.html
-up: .
+day: 4
 ---
 
 ## `while` loops
