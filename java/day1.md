@@ -1,5 +1,5 @@
 ---
-title: "Day 1: Basic Concepts"
+title: "Basic Concepts"
 layout: default
 day: 1
 ---
