@@ -2,7 +2,6 @@
 layout: default
 title: "Addendum 2.1: Colors & Formatting"
 up: day2.html
-right: day3.html
 ---
 
 ## Control Characters
