@@ -1,12 +1,11 @@
 ---
-title: "Day 1: Basic Concepts"
+title: "Basic Concepts"
 layout: default
-up: .
-right: day2.html
+day: 1
 ---
 
 ## Installation
-I'm assuming you already have Java installed. If not you should install that (ask me for help!).
+I'm assuming you already have Java installed. If not you should do that (ask me for help!).
 
 ## Setup
 Set up your Java program like this. Place it in a file that is called `A.java`. (You can replace `A` with any other sequence of letters and numbers,

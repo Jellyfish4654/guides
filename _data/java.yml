@@ -6,7 +6,10 @@
    addendums: [1]
 
  - num: 3
-   title: "If & Switch Statements"
-   
+   title: "Branching"
+
  - num: 4
+   title: "Loops"
+   
+ - num: 5
    title: "Arrays"
