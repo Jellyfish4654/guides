@@ -28,7 +28,7 @@ cd NEW-FOLDER
 ## Git
 This is inteded to be a quick reference for commmonly used commands in `git`,
 not a replacement for learning how it works. This does not cover a lot of important
-features of git, notably branching and merge conflict resolution. If you want a more detailed
+features of git, notably merge conflict resolution. If you want a more detailed
 reference of commands, type `git --help` or `git SUBCOMMAND --help`.
 
 ### Terminology
