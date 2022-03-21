@@ -66,3 +66,25 @@ condition --> |false| next("next statement")
 body --> |break| next
 body --> |continue| condition
 </div>
+
+## `for` loops
+The `for` loop is a fancy form of the `while` loop. Like the `while` loop, it also supports `break` and `continue` statements.
+
+```java
+for (initialization; condition; postcondition) {
+	// body
+}
+```
+
+`condition` is a `boolean` expression. `initialization` and `postcondition` are statements.
+
+```mermaid
+graph TD
+init[initialization] --> cond{condition}
+cond --> |true| body
+body --> post[postcondition]
+post --> cond
+cond --> |false| next("next statement")
+body --> |break| next
+body --> |continue| post
+```
