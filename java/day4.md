@@ -1,7 +1,7 @@
 ---
-title: "Loops"
 layout: default
 day: 4
+dataset: java
 ---
 
 ## `while` loops
@@ -78,7 +78,7 @@ for (initialization; condition; postcondition) {
 
 `condition` is a `boolean` expression. `initialization` and `postcondition` are statements.
 
-```mermaid
+<div class="mermaid">
 graph TD
 init[initialization] --> cond{condition}
 cond --> |true| body
@@ -87,4 +87,4 @@ post --> cond
 cond --> |false| next("next statement")
 body --> |break| next
 body --> |continue| post
-```
+</div>

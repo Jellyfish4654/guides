@@ -1,15 +1,15 @@
- - num: 1
-   title: "Getting Started"
+ - null
 
- - num: 2
-   title: "Variables & Input"
+ - title: "Getting Started"
+
+ - title: "Variables & Input"
    addendums: [1]
+   exercises: true
 
- - num: 3
-   title: "Branching"
+ - title: "Branching"
+   exercises: true
 
- - num: 4
-   title: "Loops"
+ - title: "Loops"
+   exercises: true
    
- - num: 5
-   title: "Arrays"
+ - title: "Arrays"

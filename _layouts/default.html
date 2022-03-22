@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   </head>
   <body>
-    {%if page.title %}
+    {%if page.title or page.dataset %}
     <header>
       {%if page.up == "" %}
       {%elsif page.up %}
@@ -24,7 +24,13 @@
             <a href="day{{page.day | minus: 1}}.html">&lt;</a>      
       {%endif%}
 
-      <h1>{%if page.day%}Day {{page.day}}: {%endif%}{{ page.title }}</h1>
+      <h1>
+      {%if page.dataset %}
+        Day {{page.day}}: {{site.data[page.dataset][page.day].title}}
+      {%else%}
+        {{ page.title }}
+      {%endif%}
+    </h1>
 
       {%if page.right %}
            <a href={{page.right}}>&gt;</a>
@@ -35,6 +41,10 @@
     {%endif%}
     <main>
       {{ content }}
+
+      {%if page.dataset and site.data[page.dataset][page.day].exercises %}
+      <div align="center"><a class="button" href="day{{page.day}}-exercises">Exercises</a></div>
+      {%endif%}
     </main>
     <script>mermaid.initialize({startOnLoad:true});</script>
   </body>

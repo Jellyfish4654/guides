@@ -1,7 +1,7 @@
 ---
-title: "Variables and Input"
 layout: default 
 day: 2
+dataset: java
 ---
 
 ## Variables

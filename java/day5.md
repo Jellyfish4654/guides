@@ -1,7 +1,7 @@
 ---
-title: "Arrays"
 layout: default
 day: 5
+dataset: java
 ---
 
 An *array* is a list of a fixed number of values.
