@@ -13,3 +13,18 @@
    exercises: true
    
  - title: "Arrays"
+
+## things to add
+##  - exception handling: try/catch
+##  - methods; method overloading
+##  - classes: members (static, final etc), constructors, static initializers
+##  - inheritance, abstract & final classes
+##  - interfaces & polymorphism & interface inheritance; default methods
+##  - nested classes & enums
+##  - generics
+##  - functional interfaces & closures
+##  - reading documentation
+##      - string parsing
+##      - string formatting
+##      - reading & writing files
+##      - using collections: List, Set, Map
