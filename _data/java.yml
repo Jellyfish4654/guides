@@ -14,11 +14,13 @@
    
  - title: "Arrays"
 
+ - title: "Methods"
+
 ## things to add
-##  - exception handling: try/catch
 ##  - methods; method overloading
 ##  - classes: members (static, final etc), constructors, static initializers
 ##  - inheritance, abstract & final classes
+##  - exception handling: try/catch
 ##  - interfaces & polymorphism & interface inheritance; default methods
 ##  - nested classes & enums
 ##  - generics
@@ -28,3 +30,4 @@
 ##      - string formatting
 ##      - reading & writing files
 ##      - using collections: List, Set, Map
+##      - futures/promises?

@@ -80,8 +80,9 @@ if (condition1) {
 ```
 
 ## `switch` statements
-A switch statement lets you execute a piece of code depending on what value a specific
-expression is.
+A `switch` statement lets you execute a piece of code depending on what value a specific
+expression is. `switch` statements can only be used with primitive types (numbers, `boolean`, `char`), `String`s, and `enum`s (which we'll cover later).
+
 ```java
 switch (value) {
 case 1:
