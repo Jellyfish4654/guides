@@ -18,12 +18,14 @@
    exercises: true
 
  - title: "Classes 100.1"
+   exercises: true
 
 # keep in mind
 # the purpose of this isn't just to teach java
 # but to teach how to think like a programmer --> exercises
 
 ## things to add
+##  - woops, ternary
 ##  - methods; method overloading
 ##  - classes: members (final etc), nested classes, methods
 ##  - classes: private/protected;;;

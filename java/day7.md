@@ -147,7 +147,10 @@ as the main class (in that case `A`). The disadvantage of doing this is that tha
 accessed from outside of that file.
 
 ### in their own file
-Classes can instead be placed into their own file. Using the example from above,
+Classes can instead be placed into their own file. This is the most
+common practice.
+
+Using the example from above,
 
 Student.java:
 ```java
@@ -225,6 +228,9 @@ class Student {
     // If the inner class was not static, it would be able
     // to access the fields of the associated Student instance
     // like name, grade, and courses.
+    //
+    // imho, non-static inner classes
+    // are a sign of spaghetti code
     public static class Grades {
         public double english; // [0, 1]
         public double math; // [0, 1]
