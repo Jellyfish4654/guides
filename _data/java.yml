@@ -17,13 +17,16 @@
  - title: "Methods"
    exercises: true
 
+ - title: "Classes 100.1"
+
 ## things to add
 ##  - methods; method overloading
-##  - classes: members (static, final etc), constructors, static initializers
+##  - classes: members (static, final etc), nested classes
+##  - classes: methods, constructors, static initializers
 ##  - inheritance, abstract & final classes
 ##  - exception handling: try/catch
 ##  - interfaces & polymorphism & interface inheritance; default methods
-##  - nested classes & enums
+##  - enums
 ##  - generics
 ##  - functional interfaces & closures
 ##  - reading documentation

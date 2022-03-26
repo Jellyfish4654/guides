@@ -98,3 +98,5 @@ a:active {
     color: #ebcb8b; }
 .task-cyan::marker, .task-cyan small {
     color: #b48ead; }
+
+pre { overflow: auto; }
