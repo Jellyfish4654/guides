@@ -21,16 +21,16 @@ Most terminals support [ANSI escape codes](https://en.wikipedia.org/wiki/ANSI_es
 stdout & stderr. Some common ones are:
 
 ```java
-System.out.print("\x1b[1m");        // 1 make text bold
+System.out.print("\u001b[1m");        // 1 make text bold
 System.out.print("this is bolded");
-System.out.print("\x1b[4m");        // 4 make text underline
+System.out.print("\u001b[4m");        // 4 make text underline
 System.out.print("\n this is also underlined");
-System.out.print("\x1b[0m");        // 0 reset formatting
-System.out.print("\x1b[31m a");     // 31 change color to red
-System.out.print("\x1b[32m b");     // 32 change color to green
-System.out.print("\x1b[33m c");     // 33 change color to yellow
-System.out.print("\x1b[34m d");     // 34 change color to blue
-System.out.print("\x1b[35m e");     // 35 change color to purple
-System.out.print("\x1b[36m e");     // 36 change color to cyan
-System.out.print("\x1b[39m f");     // 39 change color to default
+System.out.print("\u001b[0m");        // 0 reset formatting
+System.out.print("\u001b[31m a");     // 31 change color to red
+System.out.print("\u001b[32m b");     // 32 change color to green
+System.out.print("\u001b[33m c");     // 33 change color to yellow
+System.out.print("\u001b[34m d");     // 34 change color to blue
+System.out.print("\u001b[35m e");     // 35 change color to purple
+System.out.print("\u001b[36m e");     // 36 change color to cyan
+System.out.print("\u001b[39m f");     // 39 change color to default
 ```
