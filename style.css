@@ -94,9 +94,13 @@ a:active {
 
 .task-green::marker, .task-green small {
     color: #a3be8c; }
-.task-orange::marker, .task-orange small {
+.task-yellow::marker, .task-yellow small {
     color: #ebcb8b; }
-.task-cyan::marker, .task-cyan small {
+.task-orange::marker, .task-orange small {
+    color: #d08770; }
+.task-red::marker, .task-red small {
+    color: #bf616a; }
+.task-purple::marker, .task-purple small {
     color: #b48ead; }
 
 pre { overflow: auto; }

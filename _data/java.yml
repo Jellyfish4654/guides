@@ -19,13 +19,18 @@
 
  - title: "Classes 100.1"
 
+# keep in mind
+# the purpose of this isn't just to teach java
+# but to teach how to think like a programmer --> exercises
+
 ## things to add
 ##  - methods; method overloading
-##  - classes: members (static, final etc), nested classes
-##  - classes: methods, constructors, static initializers
-##  - inheritance, abstract & final classes
-##  - exception handling: try/catch
+##  - classes: members (final etc), nested classes, methods
+##  - classes: private/protected;;;
+##  - classes: static members, static constructors
+##  - inheritance, abstract & final classes & methods
 ##  - interfaces & polymorphism & interface inheritance; default methods
+##  - exception handling: try/catch
 ##  - enums
 ##  - generics
 ##  - functional interfaces & closures
@@ -35,3 +40,9 @@
 ##      - reading & writing files
 ##      - using collections: List, Set, Map
 ##      - futures/promises?
+
+## exercise ideas
+##  - find the zero of any given arbitrary double->double function using derivatives;   requires functions
+##  - find the sum of all primes below 2 million [euler 10];                            requires Set/generics     introduces algorithmic complexity
+##  - how many Sundays fell on the first of the month during the twentieth century
+##            (1 Jan 1901 to 31 Dec 2000)? [euler 19];                                  requires classes
