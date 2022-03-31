@@ -6,5 +6,7 @@ layout: default
 title: Reference
 ---
 
- - [Java](java)
+ - [Control Theory for FTC](ftc)
+ - [Java Lessons](java)
  - [Git](git.html)
+ - [Webdev](web.html)

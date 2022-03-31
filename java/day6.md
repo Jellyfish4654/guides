@@ -75,6 +75,9 @@ public class B {
 Notice how the sum of the array, while calculuated in the `sum` method, 
 is passed back to the `main` method.
 
+> PSA: The part of the function declaration before the left brace `{` is called the method *signature*.
+> In the case of `sum`, the method signature would be `static int sum(int[] array)`.
+
 ## Method Overloading
 It is possible to have two different methods with the same name but different parameters.
 

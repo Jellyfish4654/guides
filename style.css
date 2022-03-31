@@ -104,3 +104,6 @@ a:active {
     color: #b48ead; }
 
 pre { overflow: auto; }
+
+blockquote :first-child { margin-top: 0;}
+blockquote :last-child {margin-bottom: 0;}

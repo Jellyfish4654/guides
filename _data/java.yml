@@ -24,11 +24,13 @@
 # the purpose of this isn't just to teach java
 # but to teach how to think like a programmer --> exercises
 
+## things missing
+##  - ternary operator
+##  - null values
+
 ## things to add
-##  - woops, ternary
 ##  - methods; method overloading
-##  - classes: members (final etc), nested classes, methods
-##  - classes: private/protected;;;
+##  - classes: members (final etc), nested classes, methods, null
 ##  - classes: static members, static constructors
 ##  - inheritance, abstract & final classes & methods
 ##  - interfaces & polymorphism & interface inheritance; default methods
@@ -36,13 +38,15 @@
 ##  - enums
 ##  - generics
 ##  - functional interfaces & closures
-##  - reading documentation
-##      - string parsing
-##      - string formatting
-##      - reading & writing files
-##      - using collections: List, Set, Map
-##      - futures/promises?
 
 ## exercise ideas
 ##  - find the zero of any given arbitrary double->double function using derivatives;   requires functions
-##  - find the sum of all primes below 2 million [euler 10];                            requires Set/generics     introduces algorithmic complexity
+##  - find the sum of all primes below 2 million [euler 1est0];                            requires Set/generics     introduces algorithmic complexity
+## skills to test
+##  - string parsing/formatting
+##  - collection classes
+##  - file IO
+
+## red exercises
+##  - Sunday thing - in reality not that bad [day 4]
+##  - 2048 [day 7]
