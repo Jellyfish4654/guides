@@ -20,7 +20,7 @@
  - title: "Classes 100.1"
    exercises: true
 
- - title: "null & Static Fields"
+# - title: "null & Static Fields"
 
 # keep in mind
 # the purpose of this isn't just to teach java
@@ -33,22 +33,24 @@
 ## things to add
 ##  - methods; method overloading
 ##  - classes: members (final etc), nested classes, methods, null
+
 ##  - classes: static members, static constructors
+##  - exception handling: try/catch
+
 ##  - inheritance, abstract & final classes & methods
 ##  - interfaces & polymorphism & interface inheritance; default methods
-##  - exception handling: try/catch
+
 ##  - enums
 ##  - generics
 ##  - functional interfaces & closures
 
 ## exercise ideas
 ##  - find the zero of any given arbitrary double->double function using derivatives;   requires functions
-##  - find the sum of all primes below 2 million [euler 1est0];                            requires Set/generics     introduces algorithmic complexity
+##  - find the sum of all primes below 2 million [euler 10];                            requires Set/generics     introduces algorithmic complexity
 ## skills to test
 ##  - string parsing/formatting
 ##  - collection classes
 ##  - file IO
-##  - networking?
 
 ## red exercises
 ##  - Sunday thing - in reality not that bad [day 4]
