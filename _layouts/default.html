@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{{ page.title }}</title>
+    <title>{%if page.dataset %}
+      Day {{page.day}}: {{site.data[page.dataset][page.day].title}}
+    {%else%}
+      {{ page.title }}
+    {%endif%}</title>
     <link rel="stylesheet" href="{{site.baseurl}}/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
