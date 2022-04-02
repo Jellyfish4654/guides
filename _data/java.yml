@@ -33,13 +33,10 @@
 ## things to add
 ##  - methods; method overloading
 ##  - classes: members (final etc), nested classes, methods, null
-
-##  - classes: static members, static constructors
-##  - exception handling: try/catch
-
+##  - classes: null, static members & static constructors
 ##  - inheritance, abstract & final classes & methods
 ##  - interfaces & polymorphism & interface inheritance; default methods
-
+##  - exception handling: try/catch; NullPointerException!!
 ##  - enums
 ##  - generics
 ##  - functional interfaces & closures
