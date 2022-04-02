@@ -69,9 +69,9 @@ a:active {
     color: #d08770; }
 .highlight .s, .highlight .s2 { /*strings*/
     color: #a3be8c; }
-.highlight .mf, .highlight .mi {
+.highlight .mf, .highlight .mi, .highlight .kc {
     color: #ebcb8b; }
-.highlight .c, .highlight .c1, .highlight .c2 {
+.highlight .c, .highlight .c1, .highlight .c2, .highlight .cm {
     color: #6e7c99; }
 
 .mermaid {

@@ -66,7 +66,7 @@ class Student {
 
 public class A {
     public static void main(String[] args) {
-        Student arnv = new Student("Arnav", 12, new String[] {"Linear Algebra", "English", "Gym"});
+        Student arnv = new Student("Arnav", 12, new String[] {"Linear Algebra", "English", "Gym"}); // the parameters are from the constructor
         Student howrd = new Student("Howard", 12, new String[] {"Calculus", "AP Macro", "Free"});
         Student clar = new Student("Claire", 11, new String[] {"Precalc", "AP Lang", "AP Minecraft"});
 

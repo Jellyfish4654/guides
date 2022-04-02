@@ -20,6 +20,8 @@
  - title: "Classes 100.1"
    exercises: true
 
+ - title: "null & Static Fields"
+
 # keep in mind
 # the purpose of this isn't just to teach java
 # but to teach how to think like a programmer --> exercises
@@ -46,6 +48,7 @@
 ##  - string parsing/formatting
 ##  - collection classes
 ##  - file IO
+##  - networking?
 
 ## red exercises
 ##  - Sunday thing - in reality not that bad [day 4]
